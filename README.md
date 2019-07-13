@@ -8,4 +8,3 @@ Tecnologías
 Instalar Django
 
     pip install Django==2.2.1
-proyecto_2
