@@ -26,7 +26,7 @@ def buscarTesis(request):
 
 			resultados = Tesi.objects.filter(nombre__icontains = palabras[0])
 			for palabra_adicional in palabras[1:]: # Filtrar por palabras adicionales
-				resultados = resultados.filter(nombre__icontains = palabra_adicional)
+				resultados = resultados.filter(palabra_clave__icontains = palabra_adicional)
 			if len(resultados) > 0:
 				return render(request, 'buscador/resultados.html', {'resultados':resultados})
 			else:
