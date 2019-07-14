@@ -45,8 +45,8 @@ class Autor(models.Model):
 
 class Tesi(models.Model):
     nombre = models.CharField(max_length=50)
-    autor1 = models.ForeignKey(Autor, on_delete=models.CASCADE, related_name='autor_1') 
-    autor2 = models.ForeignKey(Autor, on_delete=models.CASCADE, related_name='autor_2') 
+    autor_1 = models.ForeignKey(Autor, on_delete=models.CASCADE, related_name='autor_1') 
+    autor_2 = models.ForeignKey(Autor, on_delete=models.CASCADE, related_name='autor_2') 
     tutor = models.CharField(max_length=50)
     jurado1 = models.CharField(max_length=50)
     jurado2 = models.CharField(max_length=50)
