@@ -1,0 +1,11 @@
+<!-- File: SQapp/templates/resultados.html -->
+<html>
+	<head>
+		<title>Resultados de la búsqueda</title>
+	</head>
+	<body>
+		{% for tesi in resultados %}
+		<p>"{{tesi.nombre}}" {{tesi.autor_1}} {{tesi.autor_2}}</p>
+		{% endfor %}
+	</body>
+</html>

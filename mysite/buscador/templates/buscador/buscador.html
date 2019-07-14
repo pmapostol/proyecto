@@ -1,0 +1,17 @@
+<!-- File: SQapp/templates/buscar.html -->
+{% load static %}
+<link rel="stylesheet" type="text/css" href="{% static 'buscador/style.css' %}">
+<html>
+	<head>
+		<title> BUSCADOR DE TESIS </title>
+	</head>
+	<body>
+		<h1 style="text-align:center;"> BUSCADOR DE TESIS </h1>
+		<form style="text-align:center;" action='buscarTesis' method='POST'>
+			<label > Buscar Tesis: </label>
+			{% csrf_token %}
+			<input type='text' name='palabras' /> <input type='submit' value='Buscar' />
+		</form>
+	</body>
+</html>
+
