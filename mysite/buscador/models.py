@@ -20,8 +20,6 @@ class Persona(models.Model):
     def __str__(self):
         return self.nombre
 
-
-
 class Ubicacion(models.Model):
     sede = models.CharField(max_length=50)
     edificio = models.CharField(max_length=50)

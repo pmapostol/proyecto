@@ -5,6 +5,9 @@ from django.views import generic
 from django.utils import timezone
 from django.template import loader
 from django.db.models import Q
+from django.contrib.auth import login, authenticate
+from django.views.generic import CreateView, TemplateView
+
 
 from .models import Persona, Ubicacion, Tesi, Autor
 
@@ -12,7 +15,10 @@ from .models import Persona, Ubicacion, Tesi, Autor
 
 
 def index(request):
-    return HttpResponse("Hola, mundo. Está en el índice de encuestas.")
+	
+    return render(request, 'buscador/index.html')
+
+
 
 
 def buscarTesis(request):
