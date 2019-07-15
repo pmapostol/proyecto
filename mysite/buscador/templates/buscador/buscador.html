@@ -4,10 +4,11 @@
 	</head>
 	<body  style="background-color:Khaki  ;">
 		<h1 style="text-align:center; color:FireBrick;"> BUSCADOR DE TESIS </h1>
-				<form style="text-align:center;" action='buscarTesis' method='POST'>
+			<form style="text-align:center;" action='buscarTesis' method='POST'>
 			<label> Buscar Tesis: </label>
 			{% csrf_token %}
-			<input type='text' name='palabras' /> <input type='submit' value='Buscar' />
+			<input type='text' name='palabras' /> 
+			<input type='submit' value='Buscar' />
 		</form>
 		<pre style="text-align:center; color:ForestGreen; font-size:16px;">
 		

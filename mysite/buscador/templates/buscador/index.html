@@ -1,13 +1,13 @@
 <html>
 	<head>
-		<title> BUSCADOR </title> 
+        <title> BUSCADOR </title>
     </head>
-<body  style="background-color:OliveDrab    ;"></body>
+<body  style="background-color:OliveDrab;"></body>
     <div>
         <h1 style="text-align:center; color:Navy ;"> BIENVENIDO AL BUSCADOR </h1>
     </div>
     <div>
-            <h1 style="color:Lime  ;"> BUSCADOR DE TESIS </h1>
+            <h1 style="color:MidnightBlue ;"> BUSCADOR DE TESIS </h1>
             <a href="buscarTesis">ENLACE</a>
     </div>
     <pre>
@@ -18,11 +18,11 @@
     </pre>
        <section>
         <h2>    AREA    ADMINISTRACTIVA </h2>
-        <form method="post" action="">{% csrf_token %}
+        <form action='' method='POST'>{% csrf_token %}
             <label for="user">Usuario</label>
-            <input type="text" name="username" placeholder="user">
+            <input type="text" name="username" placeholder="Usuario">
             <label for="pass">Contraseña</label>
-            <input type="password" name="password" placeholder="pass">
+            <input type="password" name="password" placeholder="Contraseña">
             <input type="submit" value="Iniciar Seccion">
         </form>
     </section>
