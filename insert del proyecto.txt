@@ -1,0 +1,60 @@
+TABLA Persona
+INSERT INTO buscador_persona VALUES(1,'pedro','aponte',18123366,'pedroaponte@gmail.com',04267894512,'administrador','2019-03-14 23:04:21','pedro','pedro');
+INSERT INTO buscador_persona VALUES(2,'jose','castillo',19123366,'josecastillo@gmail.com',04267894512,'gerente','2019-06-14 23:04:21','jose','jose');
+INSERT INTO buscador_persona VALUES(3,'maria','alvarado',18654366,'mariaalvarado@gmail.com',04267894512,'administrador','2019-07-14 23:04:21','maria','maria');
+INSERT INTO buscador_persona VALUES(4,'josefina','perez',11234366,'josefinaperez@gmail.com',04267894512,'gerente','2019-05-14 23:04:21','josefina','josefina');
+INSERT INTO buscador_persona VALUES(5,'manuel','capote',19357886,'manuelcapote@gmail.com',04267894512,'administrador','2019-06-14 23:04:21','manuel','manuel');
+INSERT INTO buscador_persona VALUES(6,'gloria','villaneva',19359625,'gloriavillaneva@gmail.com',04267894512,'gerente','2019-12-14 23:04:21','gloria','gloria');
+INSERT INTO buscador_persona VALUES(7,'arturo','gonzalez',18295478,'arturogonzalez@gmail.com',04267894512,'administrador','2019-11-14 23:04:21','arturo','arturo');
+INSERT INTO buscador_persona VALUES(8,'mario','arcalae',18359642,'marioarcalae@gmail.com',04267894512,'gerente','2019-10-14 23:04:21','mario','mario');
+INSERT INTO buscador_persona VALUES(9,'banjamin','castro',19735469,'banjamincastro@gmail.com',04267894512,'administrador','2019-09-14 23:04:21','banjamin','banjamin');
+INSERT INTO buscador_persona VALUES(10,'andres','marino',19345776,'franklinmarino@gmail.com',04267894512,'gerente','2019-01-14 23:04:21','andres','andres');
+
+
+TABLA Ubicacion
+INSERT INTO buscador_ubicacion VALUES(1,'caracas','Centro Cultural UCAB',1,'p1-e3');
+INSERT INTO buscador_ubicacion VALUES(2,'caracas','Centro Cultural UCAB',2,'p2-e5');
+INSERT INTO buscador_ubicacion VALUES(3,'caracas','Centro Cultural UCAB',3,'p3-e10');
+INSERT INTO buscador_ubicacion VALUES(4,'caracas','Centro Cultural UCAB',1,'p1-e20');
+INSERT INTO buscador_ubicacion VALUES(5,'caracas','Centro Cultural UCAB',2,'p2-e4');
+INSERT INTO buscador_ubicacion VALUES(6,'caracas','Centro Cultural UCAB',3,'p3-e9');
+INSERT INTO buscador_ubicacion VALUES(7,'caracas','Centro Cultural UCAB',1,'p1-e7');
+INSERT INTO buscador_ubicacion VALUES(8,'caracas','Centro Cultural UCAB',2,'p2-e15');
+INSERT INTO buscador_ubicacion VALUES(9,'caracas','Centro Cultural UCAB',3,'p3-e12');
+INSERT INTO buscador_ubicacion VALUES(10,'caracas','Centro Cultural UCAB',1,'p1-e18');
+
+
+TABLA Autor 
+INSERT INTO buscador_autor VALUES(1,'Paul','Herrera','Paul@gmail.com','telecomunicaciones');
+INSERT INTO buscador_autor VALUES(2,'Alexa','Lucas','Alexa@gmail.com','informatica');
+INSERT INTO buscador_autor VALUES(3,'Lucian','Brewer','Lucian@gmail.com','industrial');
+INSERT INTO buscador_autor VALUES(4,'Boris','Ramirez','Boris@gmail.com','civil');
+INSERT INTO buscador_autor VALUES(5,'Dorian','Melendez','Dorian@gmail.com','telecomunicaciones');
+INSERT INTO buscador_autor VALUES(6,'Michelle','Brady','Michelle@gmail.com','informatica');
+INSERT INTO buscador_autor VALUES(7,'Carlos','Colmenares','Carlos@gmail.com','industrial');
+INSERT INTO buscador_autor VALUES(8,'Eden','Mercer','Eden@gmail.com','civil');
+INSERT INTO buscador_autor VALUES(9,'Sandra','Delgado','Sandra@gmail.com','telecomunicaciones');
+INSERT INTO buscador_autor VALUES(10,'Madison','Sharpe','Madison@gmail.com','informatica');
+INSERT INTO buscador_autor VALUES(11,'Gray','Palmer','tempus.lorem@ornare.org','industrial');
+INSERT INTO buscador_autor VALUES(12,'alena','Bradley','nisl@necenim.edu','civil');
+INSERT INTO buscador_autor VALUES(13,'Tatiana','Jenkins','Aliquam.nisl.Nulla@et.co.uk','telecomunicaciones');
+INSERT INTO buscador_autor VALUES(14,'Clinton','Flowers','Phasellus.ornare.Fusce@a.co.uk','informatica');
+INSERT INTO buscador_autor VALUES(15,'Lionel','Boyd','fames.ac.turpis@orci.ca','industrial');
+INSERT INTO buscador_autor VALUES(16,'Cara','Morgan','Aliquam@pharetrautpharetra.net','civil');
+INSERT INTO buscador_autor VALUES(17,'Chandler','Newton','cursus.purus.Nullam@Nunc.net','telecomunicaciones');
+INSERT INTO buscador_autor VALUES(18,'Brent','Rogers','posuere.at.velit@Maecenas.org','informatica');
+INSERT INTO buscador_autor VALUES(19,'Damian','Oconnor','quis@etmagnisdis.net','industrial');
+INSERT INTO buscador_autor VALUES(20,'Uriel','Donovan','laoreet.libero@ornareelitelit.com','civil');
+
+
+TABLA Tesi 
+INSERT INTO buscador_tesi VALUES(1,'comunicacion satelital','Ginger Russell','Natalie Justice','Dora Sandoval','2019-04-14 23:04:21','trata sobre las telecomunicaciones satelitales',18.5,'aprobada','telecomunicaciones','comunicacion','2019-12-14 23:06:27',1,2,1,1);
+INSERT INTO buscador_tesi VALUES(2,'compilador april','Cassandra Young','Quinn Crosby','Rose Sparks','2019-03-25 23:04:21','creacion de un nuevo compilar',20,'aprobada','informatica','compilador','2019-12-14 23:06:27',3,4,2,2);
+INSERT INTO buscador_tesi VALUES(3,'fundicion de material','Jocelyn Combs','Bianca May','Maggie Garcia','2019-02-25 23:04:21','creacion de nueva manera de fundicion del material',19.5,'aprobada','industrial','fundicion','2019-12-14 23:06:27',5,6,3,3);
+INSERT INTO buscador_tesi VALUES(4,'contruccion de estructuras','Guinevere Stokes','Brielle Pugh','Azalia Randall','2019-04-25 23:04:21','contruccion de estructuras reforsadas ',17.5,'aprobada','civil','estructuras','2019-12-14 23:06:27',7,8,4,4);
+INSERT INTO buscador_tesi VALUES(5,'optimizacion de la radiofrecuencia','Flavia French','Marah Burks','Stacy Cruz','2019-01-25 23:04:21','contrucion de equpo que mejoran la radio frecuencia de transmicion ',18,'aprobada','telecomunicaciones','radiofrecuencia','2019-12-14 23:06:27',9,10,5,5);
+INSERT INTO buscador_tesi VALUES(6,'creacion de inteligencia artificial','Adele Cotton','Angela Beck','Lavinia Lowe','2019-11-25 23:04:21','creacion de una inteligencia artificial para adulto mayor',18,'aprobada','informatica','inteligencia','2019-12-14 23:06:27',11,12,6,6);
+INSERT INTO buscador_tesi VALUES(7,'optimizacion de la fundicion del hierro','Cameran Schneider','Giselle Berg','Wanda Martin','2019-10-25 23:04:21','optimizacion de la creacion de cabilla atravez de la fundicion de un mejor hierro',16,'aprobada','industrial','fundicion','2019-12-14 23:06:27',13,14,7,7);
+INSERT INTO buscador_tesi VALUES(8,'reforzamiento de estruturas','Isadora Gould','Emily Christian','Tara Burton','2019-09-25 23:04:21','leccion de los mejores materiasles para el reforzamiento de estructura',15,'aprobada','civil','estruturas','2019-12-14 23:06:27',15,16,8,8);
+INSERT INTO buscador_tesi VALUES(9,'optimizacion del protocolo de comunicacion','Moana Cherry','Dorothy Lawson','Kay Haley','2019-07-25 23:04:21','optimizacion de los protocolos de comunicacion radio satelitales de la milicia',18,'aprobada','telecomunicaciones','protocolo','2019-12-14 23:06:27',17,18,9,9);
+INSERT INTO buscador_tesi VALUES(10,'creacion del robot casero','Ariel Bender','Isabelle Roy','Jordan Hart','2019-06-25 23:04:21','creacion de un robot que ayude con la labore del hogar',18,'aprobada','informatica','robot','2019-12-14 23:06:27',19,20,10,10);
