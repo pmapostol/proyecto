@@ -29,11 +29,10 @@ def index(request):
 			return render(request, 'buscador/error.html', {'mensaje':'Por favor, introduzca términos validos o no deje vacio el usuario o la contraseña '})
 
 
-# def auditoria(request):
-# 	if request.method == 'GET':
-# 		resultados=Tesi.objects.all()
-# 		if len(resultados) > 0:
-# 		return render(request, 'buscador/auditoria.html', {'resultados':resultados})
+def auditoria(request):
+	resultados=Tesi.objects.all()
+	if len(resultados) > 0:
+		return render(request, 'buscador/auditoria.html', {'resultados':resultados})
 
 
 
